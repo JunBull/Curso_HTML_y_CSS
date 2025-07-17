@@ -1,0 +1,16 @@
+p{
+    color: blue;
+    font-family:montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}

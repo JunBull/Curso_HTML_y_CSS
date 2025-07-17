@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card{
+    background: cornflowerblue;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: justify;
+    margin: 0;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.box1{
+    background: red;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.box2{
+    background: blue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
