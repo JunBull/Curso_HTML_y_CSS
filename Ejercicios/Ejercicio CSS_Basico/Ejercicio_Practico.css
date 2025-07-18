@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(205, 247, 242);
+    margin: 0;
+    font-family: montserrat;
+}
+
+.box {
+    width: 450px;
+    background-color: rgb(245, 251, 254);
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 40px rgb(33, 74, 95);
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(194, 222, 150), transparent);
+}
+
+.red-box{
+    background: linear-gradient(rgb(214, 136, 136), transparent);
+}
+
+.blue-box{
+    background: linear-gradient(rgb(136, 157, 214),transparent);   
+}
+
+.box-tittle{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.box-subtittle{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box-text{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box-image{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px rgb(255, 255, 255));
+    width: 150px;
+}
+
+.box-login{
+    text-align: center;
+    border: none;
+    border: 3px rgb(75, 87, 75) solid;
+    margin: 0;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 50px;
+    background: rgb(194, 222, 150);
+}
