@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto en Area</title>
+    <link rel="stylesheet" href="Labels.css">
+</head>
+<body>
+    <form class="form-body">
+        <div class="separation-items">
+        <h1 class="form-title">Formulario de contacto</h1>
+        </div>
+        <div class="separation-items">
+            <!--Primera forma de poner el focus con el label al input-->
+            <label for="nombre">Nombre</label>
+            <input id="nombre" class="form-input" type="text" placeholder="Escriba su nombre">
+        </div>
+        <div class="separation-items">
+            <!--Segunda forma prar poner el focus con el label-->
+            <label>Email
+            <input class="form-input" type="email" placeholder="Escriba su email">
+            </label>
+        </div>  
+        <div class="separation-items">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" maxlength="140" rows="6" placeholder="Escriba su mensaje..." class="form-input input-textarea"></textarea>
+        </div>
+    </form>
+</body>
+</html>

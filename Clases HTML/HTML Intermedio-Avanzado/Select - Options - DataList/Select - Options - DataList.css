@@ -7,6 +7,7 @@ body{
 .form-title{
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
     padding: 0;
     color: rgb(224, 224, 224);
 }
@@ -18,9 +19,9 @@ body{
     margin: auto;
     margin-top: 40px;
     max-width: 550px;
-    text-align: center;
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(80, 80, 80);
+    color: rgb(224, 224, 224);
 }
 
 .form-input{
@@ -35,6 +36,7 @@ body{
     border-radius: 10px;
     border: 1px rgb(163, 163, 163) solid;
     background: transparent;
+    margin-top: 5px;
 }
 
 .input-textarea{
@@ -47,4 +49,9 @@ body{
 
 .separation-items{
     margin: 15px;
+}
+
+.form-select{
+    background: rgb(50, 50, 50);
+    color: rgb(224, 224, 224);    
 }
