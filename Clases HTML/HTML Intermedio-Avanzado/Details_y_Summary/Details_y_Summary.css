@@ -1,0 +1,23 @@
+body{
+    background: rgb(56, 56, 56);
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+details{
+    border: 2px #ddd solid;
+    margin: 20px;
+    padding: 10px;
+    color: #ddd;
+    font-size: 0.9em;
+    max-width: 600px;
+}
+
+details[open]{
+    color: rgb(79, 189, 27);
+}
+
+summary{
+    text-transform: uppercase; 
+}

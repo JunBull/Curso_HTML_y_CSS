@@ -12,17 +12,24 @@
         <h1 class="form-title">Formulario de contacto</h1>
         </div>
         <!--SIMPLE INPUTS-->
-        <div class="separation-items">
-            <!--Primera forma de poner el focus con el label al input-->
-            <label for="nombre">Nombre</label>
-            <input id="nombre" class="form-input" type="text" placeholder="Escriba su nombre">
-        </div>
-        <div class="separation-items">
-            <!--Segunda forma prar poner el focus con el label-->
-            <label>Email
-            <input class="form-input" type="email" placeholder="Escriba su email">
-            </label>
-        </div>
+        <fieldset class="form-fieldset">
+            <legend class="form-legend">INFORMACION BÁSICA</legend>
+            <div class="separation-items">
+                <!--Primera forma de poner el focus con el label al input-->
+                <label for="nombre">Nombre</label>
+                <input id="nombre" class="form-input" type="text" placeholder="Escriba su nombre">
+            </div>
+            <div class="separation-items">
+                <!--Segunda forma de poner el focus con el label-->
+                <label>Email
+                <input class="form-input" type="email" placeholder="Escriba su email">
+                </label>
+            </div>
+            <div class="separation-items">
+                <label for="asunto">Asunto</label>
+                <input id="asunto" class="form-input" type="text" placeholder="Escriba su asunto">
+            </div>
+        </fieldset>
         <!--SELECT & OPTIONS-->
         <div class="separation-items">
             <label for="usuario">Tipo de usuario</label>

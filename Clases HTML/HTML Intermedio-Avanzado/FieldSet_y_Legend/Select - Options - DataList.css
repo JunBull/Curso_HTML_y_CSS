@@ -9,7 +9,7 @@ body{
     margin: 0;
     text-align: center;
     padding: 0;
-    color: rgb(224, 224, 224);
+    font-size: 1.8em;
 }
 
 .form-body{
@@ -17,11 +17,13 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     max-width: 550px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgb(80, 80, 80);
     color: rgb(224, 224, 224);
+    background: linear-gradient(rgb(47, 47, 47),rgb(27, 27, 27));
 }
 
 .form-input{
@@ -48,10 +50,21 @@ body{
 }
 
 .separation-items{
-    margin: 15px;
+    margin: 25px 15px;
 }
 
 .form-select{
-    background: rgb(50, 50, 50);
+    background: rgb(35, 35, 35);
     color: rgb(224, 224, 224);    
+}
+
+.form-fieldset{
+    margin: 15px;
+    border: 2px rgb(110, 110, 110) solid;
+    border-radius: 10px;
+}
+
+.form-legend{
+    color: rgb(110, 110, 110);
+    padding: 0 6px;
 }
