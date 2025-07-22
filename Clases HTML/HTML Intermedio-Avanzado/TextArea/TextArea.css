@@ -1,12 +1,51 @@
 body{
     margin: 0;
     padding: 0;
+    background: rgb(50, 50, 50);
+}
+
+.form-title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: rgb(224, 224, 224);
 }
 
 .form-body{
-
+    background: rgb(50, 50, 50);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(80, 80, 80);
 }
 
 .form-input{
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(224, 224, 224);
+    border-radius: 10px;
+    border: 1px rgb(163, 163, 163) solid;
+    background: transparent;
+}
+
+.input-textarea{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 100%;
+    resize: vertical;
+    min-height: 130px;  
+    max-height: 250px;
+}
+
+.separation-items{
+    margin: 15px;
 }
