@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select - Options - DataList</title>
+    <link rel="stylesheet" href="Select - Options - DataList.css">
+</head>
+<body>
+    <form class="form-body">
+        <div class="separation-items">
+        <h1 class="form-title">Formulario de contacto</h1>
+        </div>
+        <!--SIMPLE INPUTS-->
+        <div class="separation-items">
+            <!--Primera forma de poner el focus con el label al input-->
+            <label for="nombre">Nombre</label>
+            <input id="nombre" class="form-input" type="text" placeholder="Escriba su nombre">
+        </div>
+        <div class="separation-items">
+            <!--Segunda forma prar poner el focus con el label-->
+            <label>Email
+            <input class="form-input" type="email" placeholder="Escriba su email">
+            </label>
+        </div>
+        <!--SELECT & OPTIONS-->
+        <div class="separation-items">
+            <label for="usuario">Tipo de usuario</label>
+            <select id="usuario" class="form-input form-select">
+                <option value="1">Normal</option>}
+                <option value="2">Premium</option>
+                <option value="3">Pro</option>
+            </select>
+        </div>
+        <!--DATALIST & OPTIONS-->
+        <div class="separation-items">
+            <label for="ref">Referencia</label>
+            <input id="ref" list="reference" name="reference" class="form-input">
+            <datalist id="reference" name="type-of-user">
+                <option value="Amigo">Un conocido de la empresa</option>}
+                <option value="Red Social">Nuestras redes sociales</option>
+                <option value="Empleado">Trabajador de la empresa</option>                
+            </datalist>
+        </div>
+        <!--TEXT AREA-->
+        <div class="separation-items">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" maxlength="140" rows="6" placeholder="Escriba su mensaje..." class="form-input input-textarea"></textarea>
+        </div>
+    </form>
+</body>
+</html>

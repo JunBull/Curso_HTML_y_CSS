@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(50, 50, 50);
+}
+
+.form-body{
+    background: rgb(41, 41, 41);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 550px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(80, 80, 80);
+    color: rgb(224, 224, 224);
+}
+
+.form-input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(224, 224, 224);
+    border-radius: 10px;
+    border: 1px rgb(163, 163, 163) solid;
+    background: transparent;
+    margin-top: 5px;
+}
+
+.separation-items{
+    margin: 15px;
+}
+
+.form-fieldset{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    border-color: rgb(129, 129, 129);
+}
+
+.form-legend{
+    padding: 0 8px;
+    color: rgb(129, 129, 129);
+
+}
