@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="AccesibilidadWeb.css">
+        <title>Accesibilidad Web</title>
+    </head>
+    <body>
+        <!-- Etiqueta con atributo alt -->
+        <img src="logo.png" alt="Logotipo de la empresa" width="150" height="150">
+
+        <!-- Formulario accesible -->
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" aria-required="true">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" aria-label="Correo electrónico personal">
+
+            <button type="submit" aria-label="Enviar formulario">Enviar</button>
+        </form>
+
+        <!-- Enlace con texto alternativo invisible para lectores de pantalla -->
+        <a href="https://twitter.com" aria-label="Visitar nuestro Twitter">
+            <img src="twitter-icon.png" alt="" aria-hidden="true">
+        </a>
+
+        <!-- Sección con roles y tabindex -->
+        <nav role="navigation" aria-label="Menú principal">
+            <ul>
+            <li><a href="#inicio" tabindex="0">Inicio</a></li>
+            <li><a href="#servicios" tabindex="0">Servicios</a></li>
+            <li><a href="#contacto" tabindex="0">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Texto decorativo oculto para lectores de pantalla -->
+        <span aria-hidden="true">★</span>
+    </body>
+</html>
