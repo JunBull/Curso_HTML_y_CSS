@@ -1,0 +1,50 @@
+/* ::before */
+.before-after::before {
+  content: "🔹";
+  margin-right: 8px;
+}
+
+/* ::after */
+.before-after::after {
+  content: "🔹";
+  margin-left: 8px;
+}
+
+/* ::first-line */
+.first-line-letter::first-line {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+/* ::first-letter */
+.first-line-letter::first-letter {
+  font-size: 2em;
+  color: #cc0000;
+}
+
+/* ::selection */
+.selectable::selection {
+  background: yellow;
+  color: black;
+}
+
+/* ::placeholder */
+.input-placeholder::placeholder {
+  color: red;
+  font-style: italic;
+}
+
+/* ::marker */
+.lista li::marker {
+  color: green;
+  font-size: 1.2em;
+}
+
+/* ::backdrop */
+::backdrop {
+  background-color: rgba(247, 84, 84);
+}
+
+p{
+    width: 500px;
+}

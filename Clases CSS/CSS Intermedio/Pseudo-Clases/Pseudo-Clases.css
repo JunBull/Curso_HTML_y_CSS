@@ -1,0 +1,71 @@
+h1{
+    color: blue;
+}
+h2{
+    color: purple;
+}
+/*Cuando pasamos el mouse por encima del h1*/
+h1:hover{
+color: green;
+}
+
+/*Mientras se este clickeando el h2*/
+h2:active{
+    color: white;
+    background: #000;
+}
+
+/*Seleccionar el primer li*/
+li:first-child{
+    color: red;
+}
+
+/*Seleccionar el ultimo li*/
+li:last-child{
+    color: blue;
+}
+
+/*Seleccionar el n pisicion li*/
+li:nth-child(2){
+    color: lightblue;
+}
+
+/*Seleccionando un li SI y un li NO*/
+li:nth-child(2n){
+    color: greenyellow;
+}
+
+/*Seleccionando solo los tipos li */
+li:nth-of-type(2n){
+    color: red;
+}
+
+/*Seleccionando el li de la clase lista, pero excluyendo los que tengan la clase .excluido*/
+.lista li:not(.excluido){
+    color: blueviolet;
+}
+
+/*Dandole los atributos al div solo si esta vacio*/
+div:empty{
+    background: blue;
+    padding: 50px;
+}
+
+/*Atributo de verificar cuando esta chequeado el input*/
+input[type="checkbox"]{
+margin: 20px;
+}
+
+input[type="checkbox"]:checked{
+margin: 0px;
+}
+
+/*Seleccionando enlaces NO visitados*/
+a:link{
+    color: red;
+}
+
+/*Seleccionando enlaces SI visitados*/
+a:visited{
+    color: green;
+}

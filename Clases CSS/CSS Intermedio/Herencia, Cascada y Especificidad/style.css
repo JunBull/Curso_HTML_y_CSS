@@ -1,0 +1,20 @@
+/* Herencia: esto se hereda a los párrafos */
+#contenedor {
+  font-family: Arial, sans-serif;
+  color: gray;
+}
+
+/* Cascada: esta regla es la primera */
+p {
+  color: blue; /* especificidad: 1 */
+}
+
+/* Más específica: sobrescribe la anterior */
+.texto {
+  color: green; /* especificidad: 10 */
+}
+
+/* Aún más específica: sobrescribe la anterior si se aplica */
+.texto.especial {
+  color: red; /* especificidad: 20 */
+}

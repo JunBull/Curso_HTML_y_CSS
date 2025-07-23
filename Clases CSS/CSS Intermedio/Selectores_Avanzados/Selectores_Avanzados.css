@@ -1,0 +1,21 @@
+img[src^="golden"]{
+    width: 30%;
+}
+/*Selector descendiente*/
+ul li{
+    color: blue;
+}
+/*Selector por hijo directo*/
+ul > strong{
+    color: purple;
+}
+
+/*Selector por hermano adyacente*/
+h1 + p{
+    color: brown;
+}
+
+/*Selector por hermano general*/
+h1 ~ h2{
+    color: red;
+}
