@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hola{
+    padding: 10px;
+    background-color: rgb(186, 186, 255);
+}
+
+a{
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.8;
+    display: block;
+}
+
+.adios{
+    padding: 10px;
+    background-color: rgb(247, 255, 186);
+}
+
+.in_block{
+    background-color: rgb(172, 172, 184);
+    display: inline;
+}
