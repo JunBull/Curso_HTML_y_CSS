@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 
 .hola{
@@ -8,7 +10,7 @@ body{
     background-color: rgb(186, 186, 255);
 }
 
-a{
+a .ab{
     background-color: red;
     padding: 10px;
     margin: 10px;
@@ -24,4 +26,84 @@ a{
 .in_block{
     background-color: rgb(172, 172, 184);
     display: inline;
+}
+
+.nav{
+    text-align: center;
+    background-color: rgb(242, 207, 68);
+}
+
+.nav__item{
+    display: inline-block;
+}
+
+.nav__link{
+    display: block;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: rgb(54, 45, 17);
+}
+
+.nav__link:hover{
+    background-color: rgb(251, 221, 101);
+}
+
+.link--button{
+    background: rgb(255, 255, 255);
+    color: rgb(242, 207, 68);
+    border: 2px solid transparent;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 0.95em;
+    margin-left: 80px;
+}
+
+.link--button:hover{
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d4f7dc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.flexbox__item {
+    background-color: #7ed6a3;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #f9d5ec;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.gridbox__item {
+    background-color: #f78fb3;
+    padding: 20px;
+    text-align: center;
+}
+
+.oculto {
+    display: none;
+}
+
+.contenedor-contents {
+    display: contents;
+}
+
+.interior {
+    background-color: #dbeafe;
+    padding: 10px;
+    margin: 5px 0;
 }

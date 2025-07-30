@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+}
+
+.box--red{
+    background-color: red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.box:first-child{
+    background-color: green;
+}
+
+.contenedor{
+    width: 50%;
+    border: 2px solid black;
+    position: relative;
+    margin: 100px auto;
+}
